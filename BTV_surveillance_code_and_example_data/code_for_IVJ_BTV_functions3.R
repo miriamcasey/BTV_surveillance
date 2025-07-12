@@ -4,12 +4,10 @@ library(janitor)
 library(tidyverse)
 library(epiR)
 library(data.table)
-library(parallel)
 library(actuar)
 library(tidyverse)
-library(ggdist)
 library(cowplot)
-library(ggbeeswarm)
+
 # The palette with grey:
 cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#000000", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
