@@ -1,0 +1,40 @@
+variable,variable1,include,order,round
+hex_id,Temporary control zone reference,y,1,
+herds_to_sample,Herds to sample,y,2,
+test_sensitivity,Test sensitivity,y,3,n
+test_specificity,Test specificity,y,4,n
+between_herd_prevalence,Between herd prevalence,y,5,n
+within_herd_prevalence,Within herd prevalence,y,6,n
+ppv,Positive predictive value,y,7,n
+npv,Negative predictive value,y,8,n
+count_all_herds,Total herds in temporary control zone,y,11,y
+count_all_herds_gr20,Total herds with > 20 cattle in temporary control zone,y,10,y
+count_all_herds_gr100,Total herds with > 100 cattle in temporary control zone,y,10,y
+count_infected_herds,Infected herds in temporary control zone,y,11,y
+count_all_animals,Total cattle in temporary control zone,y,12,y
+count_infected_animals,Infected cattle in temporary control zone,y,13,y
+mean_prop_infected_animals_in_infected_herds,Mean proportion infected cattle within infected herds,n,100,y
+count_all_herds_tested,Total herds tested,y,9,y
+count_infected_herds_tested,Infected herds tested,y,10,y
+count_all_animals_in_tested_herds,Total cattle in tested herds,y,17,y
+count_infected_animals_in_tested_herds,Total infected cattle in tested herds,y,18,y
+count_infected_cattle_tested,Infected cattle tested,y,19,y
+count_uninfected_cattle_tested,Uninfected cattle tested,y,20,y
+min_cattle_in_herd_sampled,Minimum cattle sampled per herd,y,21,y
+median_cattle_in_herd_sampled,Median cattle sampled per herd,y,22,y
+max_cattle_in_herd_sampled,Maximum cattle sampled per herd,y,23,y
+sum_cattle_in_herd_sampled,Total cattle sampled,y,24,y
+count_true_pos_cattle,True positive cattle,y,25,y
+count_false_pos_cattle,False positive cattle,y,26,y
+count_true_neg_cattle,True negative cattle,y,27,y
+count_false_neg_cattle,False negative cattle,y,28,y
+mean_prop_infected_animals_in_tested_herds,Mean proportion of infected cattle in tested infected herds,y,4,n
+count_apparent_pos_herds,Count apparent positive herds,y,30,y
+count_apparent_pos_animals,Count apparent positive cattle,y,31,y
+count_false_pos_herds,False positive herds,y,6,y
+count_true_pos_herds,True positive herds,y,7,y
+count_false_neg_herds,False negative herds,y,8,y
+count_true_neg_herds,True negative herds,y,9,y
+mean_prop_apparent_positive_animals_in_tested_herds,Mean proportion apparent positive cattle in tested herds,y,3,n
+prop_infected_herds,Proportion infected herds,y,2,n
+prop_apparent_pos_herds,Proportion apparent positive herds,y,1,n
